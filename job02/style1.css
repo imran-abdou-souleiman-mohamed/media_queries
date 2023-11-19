@@ -1,0 +1,22 @@
+/* changement de couleur */
+body{
+    background-color: #88c1d0;
+}
+/* fixe une taille minimum  et maximum  avec une couleur en fonction de la taille */
+@media screen and (min-width: 1680px) and (max-width: 1920px) {
+    body{
+        background-color: #ffca4b;
+    }
+}
+/* fixe une taille minimum  et maximum  avec une couleur en fonction de la taille */
+@media screen and (min-width: 1280px) and (max-width: 1680px) {
+    body{
+        background-color: #275fa0;
+    }
+}
+/* fixe une taille maximum avec une couleur */
+@media (max-width: 1280px){
+    body{
+        background-color: #ffffff;
+    }
+}
